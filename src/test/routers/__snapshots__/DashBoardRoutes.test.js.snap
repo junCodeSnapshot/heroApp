@@ -1,0 +1,591 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <DashboardRoutes /> debe hacer match con el snapshot 1`] = `
+Array [
+  <nav
+    className="navbar navbar-expand-sm navbar-dark bg-dark"
+  >
+    <a
+      className="navbar-brand"
+      href="/"
+      onClick={[Function]}
+    >
+      Asociaciones
+    </a>
+    <div
+      className="navbar-collapse"
+    >
+      <div
+        className="navbar-nav"
+      >
+        <a
+          aria-current="page"
+          className="nav-item nav-link active"
+          href="/marvel"
+          onClick={[Function]}
+          style={Object {}}
+        >
+          Marvel
+        </a>
+        <a
+          aria-current={null}
+          className="nav-item nav-link"
+          href="/dc"
+          onClick={[Function]}
+        >
+          DC
+        </a>
+        <a
+          aria-current={null}
+          className="nav-item nav-link"
+          href="/search"
+          onClick={[Function]}
+        >
+          Search Hero
+        </a>
+      </div>
+    </div>
+    <div>
+      <ul
+        className="navbar-nav ml-auto"
+      >
+        <span
+          className="nav-item nav-link top-0 end-0 text-info"
+        >
+          Pedro
+        </span>
+        <button
+          className="btn nav-item nav-link top-0 end-0"
+          onClick={[Function]}
+        >
+          Logout
+        </button>
+      </ul>
+    </div>
+  </nav>,
+  <div
+    className="container mt-2"
+  >
+    <div>
+      <h1>
+        MarvelScreen
+      </h1>
+      <hr />
+      <div
+        className="row row-cols-1 row-cols-md-5 g-4 animate__animated animate__bounceInLeft"
+      >
+        <a
+          href="/hero/marvel-spider"
+          onClick={[Function]}
+        >
+          <div
+            className=" card bg-dark ms-3 ps-1 pe-1 pt-1 pb-1 "
+            style={
+              Object {
+                "color": "#ffc107",
+                "maxWidth": "640px",
+              }
+            }
+          >
+            <img
+              alt="Spider Man"
+              className="card-img "
+              src="./assets/heroes/marvel-spider.jpg"
+              style={
+                Object {
+                  "position": "relative",
+                }
+              }
+            />
+            <div
+              className="card-img-overlay"
+              style={
+                Object {
+                  "marginTop": "250px",
+                  "textShadow": "-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000",
+                }
+              }
+            >
+              <h5
+                className=" card-title fs-4"
+              >
+                Spider Man
+              </h5>
+              <p
+                className="card-text"
+                style={
+                  Object {
+                    "color": "white",
+                  }
+                }
+              >
+                Alterego: 
+                Peter Parker
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          href="/hero/marvel-captain"
+          onClick={[Function]}
+        >
+          <div
+            className=" card bg-dark ms-3 ps-1 pe-1 pt-1 pb-1 "
+            style={
+              Object {
+                "color": "#ffc107",
+                "maxWidth": "640px",
+              }
+            }
+          >
+            <img
+              alt="Captain America"
+              className="card-img "
+              src="./assets/heroes/marvel-captain.jpg"
+              style={
+                Object {
+                  "position": "relative",
+                }
+              }
+            />
+            <div
+              className="card-img-overlay"
+              style={
+                Object {
+                  "marginTop": "250px",
+                  "textShadow": "-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000",
+                }
+              }
+            >
+              <h5
+                className=" card-title fs-4"
+              >
+                Captain America
+              </h5>
+              <p
+                className="card-text"
+                style={
+                  Object {
+                    "color": "white",
+                  }
+                }
+              >
+                Alterego: 
+                Steve Rogers
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          href="/hero/marvel-iron"
+          onClick={[Function]}
+        >
+          <div
+            className=" card bg-dark ms-3 ps-1 pe-1 pt-1 pb-1 "
+            style={
+              Object {
+                "color": "#ffc107",
+                "maxWidth": "640px",
+              }
+            }
+          >
+            <img
+              alt="Iron Man"
+              className="card-img "
+              src="./assets/heroes/marvel-iron.jpg"
+              style={
+                Object {
+                  "position": "relative",
+                }
+              }
+            />
+            <div
+              className="card-img-overlay"
+              style={
+                Object {
+                  "marginTop": "250px",
+                  "textShadow": "-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000",
+                }
+              }
+            >
+              <h5
+                className=" card-title fs-4"
+              >
+                Iron Man
+              </h5>
+              <p
+                className="card-text"
+                style={
+                  Object {
+                    "color": "white",
+                  }
+                }
+              >
+                Alterego: 
+                Tony Stark
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          href="/hero/marvel-thor"
+          onClick={[Function]}
+        >
+          <div
+            className=" card bg-dark ms-3 ps-1 pe-1 pt-1 pb-1 "
+            style={
+              Object {
+                "color": "#ffc107",
+                "maxWidth": "640px",
+              }
+            }
+          >
+            <img
+              alt="Thor"
+              className="card-img "
+              src="./assets/heroes/marvel-thor.jpg"
+              style={
+                Object {
+                  "position": "relative",
+                }
+              }
+            />
+            <div
+              className="card-img-overlay"
+              style={
+                Object {
+                  "marginTop": "250px",
+                  "textShadow": "-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000",
+                }
+              }
+            >
+              <h5
+                className=" card-title fs-4"
+              >
+                Thor
+              </h5>
+              <p
+                className="card-text"
+                style={
+                  Object {
+                    "color": "white",
+                  }
+                }
+              >
+                Alterego: 
+                Thor Odinson
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          href="/hero/marvel-hulk"
+          onClick={[Function]}
+        >
+          <div
+            className=" card bg-dark ms-3 ps-1 pe-1 pt-1 pb-1 "
+            style={
+              Object {
+                "color": "#ffc107",
+                "maxWidth": "640px",
+              }
+            }
+          >
+            <img
+              alt="Hulk"
+              className="card-img "
+              src="./assets/heroes/marvel-hulk.jpg"
+              style={
+                Object {
+                  "position": "relative",
+                }
+              }
+            />
+            <div
+              className="card-img-overlay"
+              style={
+                Object {
+                  "marginTop": "250px",
+                  "textShadow": "-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000",
+                }
+              }
+            >
+              <h5
+                className=" card-title fs-4"
+              >
+                Hulk
+              </h5>
+              <p
+                className="card-text"
+                style={
+                  Object {
+                    "color": "white",
+                  }
+                }
+              >
+                Alterego: 
+                Bruce Banner
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          href="/hero/marvel-wolverine"
+          onClick={[Function]}
+        >
+          <div
+            className=" card bg-dark ms-3 ps-1 pe-1 pt-1 pb-1 "
+            style={
+              Object {
+                "color": "#ffc107",
+                "maxWidth": "640px",
+              }
+            }
+          >
+            <img
+              alt="Wolverine"
+              className="card-img "
+              src="./assets/heroes/marvel-wolverine.jpg"
+              style={
+                Object {
+                  "position": "relative",
+                }
+              }
+            />
+            <div
+              className="card-img-overlay"
+              style={
+                Object {
+                  "marginTop": "250px",
+                  "textShadow": "-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000",
+                }
+              }
+            >
+              <h5
+                className=" card-title fs-4"
+              >
+                Wolverine
+              </h5>
+              <p
+                className="card-text"
+                style={
+                  Object {
+                    "color": "white",
+                  }
+                }
+              >
+                Alterego: 
+                James Howlett
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          href="/hero/marvel-daredevil"
+          onClick={[Function]}
+        >
+          <div
+            className=" card bg-dark ms-3 ps-1 pe-1 pt-1 pb-1 "
+            style={
+              Object {
+                "color": "#ffc107",
+                "maxWidth": "640px",
+              }
+            }
+          >
+            <img
+              alt="Daredevil"
+              className="card-img "
+              src="./assets/heroes/marvel-daredevil.jpg"
+              style={
+                Object {
+                  "position": "relative",
+                }
+              }
+            />
+            <div
+              className="card-img-overlay"
+              style={
+                Object {
+                  "marginTop": "250px",
+                  "textShadow": "-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000",
+                }
+              }
+            >
+              <h5
+                className=" card-title fs-4"
+              >
+                Daredevil
+              </h5>
+              <p
+                className="card-text"
+                style={
+                  Object {
+                    "color": "white",
+                  }
+                }
+              >
+                Alterego: 
+                Matthew Michael Murdock
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          href="/hero/marvel-hawkeye"
+          onClick={[Function]}
+        >
+          <div
+            className=" card bg-dark ms-3 ps-1 pe-1 pt-1 pb-1 "
+            style={
+              Object {
+                "color": "#ffc107",
+                "maxWidth": "640px",
+              }
+            }
+          >
+            <img
+              alt="Hawkeye"
+              className="card-img "
+              src="./assets/heroes/marvel-hawkeye.jpg"
+              style={
+                Object {
+                  "position": "relative",
+                }
+              }
+            />
+            <div
+              className="card-img-overlay"
+              style={
+                Object {
+                  "marginTop": "250px",
+                  "textShadow": "-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000",
+                }
+              }
+            >
+              <h5
+                className=" card-title fs-4"
+              >
+                Hawkeye
+              </h5>
+              <p
+                className="card-text"
+                style={
+                  Object {
+                    "color": "white",
+                  }
+                }
+              >
+                Alterego: 
+                Clinton Francis Barton
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          href="/hero/marvel-cyclops"
+          onClick={[Function]}
+        >
+          <div
+            className=" card bg-dark ms-3 ps-1 pe-1 pt-1 pb-1 "
+            style={
+              Object {
+                "color": "#ffc107",
+                "maxWidth": "640px",
+              }
+            }
+          >
+            <img
+              alt="Cyclops"
+              className="card-img "
+              src="./assets/heroes/marvel-cyclops.jpg"
+              style={
+                Object {
+                  "position": "relative",
+                }
+              }
+            />
+            <div
+              className="card-img-overlay"
+              style={
+                Object {
+                  "marginTop": "250px",
+                  "textShadow": "-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000",
+                }
+              }
+            >
+              <h5
+                className=" card-title fs-4"
+              >
+                Cyclops
+              </h5>
+              <p
+                className="card-text"
+                style={
+                  Object {
+                    "color": "white",
+                  }
+                }
+              >
+                Alterego: 
+                Scott Summers
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          href="/hero/marvel-silver"
+          onClick={[Function]}
+        >
+          <div
+            className=" card bg-dark ms-3 ps-1 pe-1 pt-1 pb-1 "
+            style={
+              Object {
+                "color": "#ffc107",
+                "maxWidth": "640px",
+              }
+            }
+          >
+            <img
+              alt="Silver Surfer"
+              className="card-img "
+              src="./assets/heroes/marvel-silver.jpg"
+              style={
+                Object {
+                  "position": "relative",
+                }
+              }
+            />
+            <div
+              className="card-img-overlay"
+              style={
+                Object {
+                  "marginTop": "250px",
+                  "textShadow": "-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000",
+                }
+              }
+            >
+              <h5
+                className=" card-title fs-4"
+              >
+                Silver Surfer
+              </h5>
+              <p
+                className="card-text"
+                style={
+                  Object {
+                    "color": "white",
+                  }
+                }
+              >
+                Alterego: 
+                Norrin Radd
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>,
+]
+`;
