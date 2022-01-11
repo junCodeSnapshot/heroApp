@@ -6,7 +6,7 @@ This project only is a easy demostration about React and routerv5 and also doing
 
 In the project directory, you can run:
 
-### `npm stars:cc:::cxcct`
+### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
